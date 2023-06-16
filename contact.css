@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+
+    font-family: 'Playfair Display', serif;
+    background-color:#004d98 ;
+}
+
+/* navbar start */
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: 	#a50044;
+    background-size: cover;
+    padding: 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white !important;
+    font-size: 25px;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color: #edbb00 !important;
+    font-size: 25px;
+}
+
+
+/* navbar end */
+
+h1, h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.list-movies a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.list-movies a:hover{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #edbb00;
+
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+
+}
+
+ol li{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    color: #edbb00;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* CONTACT PAGE START */
+
+.list-contact{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.list-contact li{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.img3{
+    display: flex;
+justify-content: center;
+}
+img {
+
+width: 400px;
+height: 300px;
+}
+
+/* CONTACT PAGE END */
+
